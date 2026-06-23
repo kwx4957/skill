@@ -1,0 +1,25 @@
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    side-by-side = true
+    line-numbers = true
+    syntax-theme = Dracula
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+[delta "decorate"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow
+    file-decoration-style = none
+
+[delta "features"]
+    decorations = true

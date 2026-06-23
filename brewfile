@@ -1,0 +1,55 @@
+# =========================
+# CLI
+# =========================
+brew "fastfetch"
+brew "jq"
+brew "git" 
+brew "git-delta" 
+brew "vim"
+brew "wget"  
+brew "awscli" 
+brew "starship" 
+brew "zsh-autosuggestions"
+brew "zsh-autocomplete"
+brew "zsh-syntax-highlighting"
+
+# =========================
+# k8s or container
+# =========================
+brew "orbstack"                 # docker 대체제
+brew "helm"  
+brew "kubectl"  
+brew "k9s"
+brew "krew"             
+# brew "kubectx"
+# brew "kubens"
+
+# =========================
+# LLM
+# =========================
+brew "ollama" 
+cask "codex"   
+
+# =========================
+# GUI Applications
+# =========================
+cask "appcleaner"               # 앱 삭제시 관련 데이터도 자동 삭제, 앱 실행후 수둥오르 떙겨와서 삭제 
+cask "zoom"              
+cask "visual-studio-code"             
+cask "opencode-desktop"         # vscode 대체제     
+cask "vagrant"               
+cask "virtualbox"               
+cask "temurin@17"       
+cask "discord"
+cask "slack"   
+cask "spotify"
+cask "alfred"
+cask "google-chrome"
+cask "insomnia"                 # postman 대체제 
+cask "ghostty"                  #iterm2 대체제
+
+# =========================
+# Fonts
+# =========================
+cask "font-hack-nerd-font"
+cask "font-noto-sans-cjk-kr"
