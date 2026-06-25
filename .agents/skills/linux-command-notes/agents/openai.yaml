@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux Command Notes"
+  short_description: "0.linux/cmd 명령어 문서화 작성 가이드"
+  default_prompt: "Use $linux-command-notes to create or update a categorized Linux command document under 0.linux/cmd."
